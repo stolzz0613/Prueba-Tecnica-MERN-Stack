@@ -20,7 +20,7 @@ const AlertaState = props => {
                 categoria,
             }
         });
-
+        //desaparece alert despues de 5 segundos
         setTimeout(()=>{
             dispatch({
                 type: OCULTAR_ALERTA
