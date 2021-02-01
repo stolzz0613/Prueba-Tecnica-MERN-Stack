@@ -9,10 +9,6 @@ const auth = require('../middleware/auth');
 // api/auth
 
 router.post('/',
-    [
-        check('email', 'Ingresa un email valido').isEmail(),
-        check('password', 'El password debe ser minimo de 6 caracteres').isLength({min: 6})
-    ],
     authController.autenticarUsuario
 );
 module.exports = router;

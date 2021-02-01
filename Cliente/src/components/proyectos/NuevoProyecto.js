@@ -29,7 +29,7 @@ const NuevoProyecto = () => {
     const onChangeProyecto = e => {
         setProyecto({
             ...proyecto,
-            [e.target.name] : [e.target.value]
+            [e.target.name] : e.target.value
         });
     };
 
