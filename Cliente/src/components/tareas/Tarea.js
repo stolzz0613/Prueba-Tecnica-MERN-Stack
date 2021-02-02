@@ -14,7 +14,7 @@ const Tarea = ({tarea}) => {
     //Función que se ejecuta cuando el usuario presiona el btn de eliminar tarea
     const tareaEliminar = id => {
         eliminarTarea(id, proyecto[0]._id);
-        obtenerTareas(proyecto[0].id);
+        obtenerTareas(proyecto[0]._id);
     }
 
     //Funcion que modifica el estado de la tareas
