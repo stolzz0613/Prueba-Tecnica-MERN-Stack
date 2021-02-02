@@ -5,6 +5,8 @@ Prueba tecnica desarrollada con ReactJS, NodeJS, MongoDB, express, hooks, estado
 La aplicación se encuentra hospedada en Heroku y Netlify, la base de datos en MongoDB Atlas.
 Se puede acceder a la aplicación desde ```https://goofy-austin-033987.netlify.app```
 
+Un usuario existente es: correo: ```admin@admin.com``` y password: ```123456```
+
 ### Instalación 🔧
 
 Si se desea hacer el deploy en local se debe usar el comando ```npm start``` en la carpeta ```Servidor``` y ```Cliente```
