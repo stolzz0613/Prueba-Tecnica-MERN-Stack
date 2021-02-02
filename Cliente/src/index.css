@@ -1,8 +1,8 @@
 :root {
   --blanco: #ffffff;
   --gris1: #edf2f6;
-  --gris2: #2f3848;
-  --gris3: #1a202d;
+  --gris2: #00225c;
+  --gris3: #021846;
   --negro: #000000;
   --headingFont:'Raleway', sans-serif;
   --textFont:  'Roboto', sans-serif;
@@ -14,7 +14,7 @@ html {
   box-sizing: border-box;
   height: 100%;
   font-size: 62.5%; 
-}
+} 
 body {
   min-height: 100%;
   background-color: var(--gris1);
